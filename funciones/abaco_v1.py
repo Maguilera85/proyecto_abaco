@@ -1,21 +1,21 @@
 
-theBoard[''] = "XXX"
-theBoard[''] = "   "
+tablero[''] = "XXX"
+tablero[''] = "   "
 
 
 
 print()
 print("            +---+       +---+       +---+       +---+       +---+       +---+")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
-print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
+print("            |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|       |" + tablero[''] + "|")
 print("          __+---+_______+---+_______+---+_______+---+_______+---+_______+---+__")
 print("          |___________________________________________________________________|")
 

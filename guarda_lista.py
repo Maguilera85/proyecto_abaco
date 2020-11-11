@@ -1,10 +1,10 @@
-numero1=int(input("ingrese numero: ") )
+numeroero1=int(input("ingrese numeroero: ") )
 lista = []
 
-while numero1>0:
-    suma = numero1
-    numero1 =int(input("introduce otro numero: "))
-    lista.append(numero1)
+while numeroero1>0:
+    suma = numeroero1
+    numeroero1 =int(input("introduce otro numeroero: "))
+    lista.append(numeroero1)
 
    
 print(" ", str(lista))

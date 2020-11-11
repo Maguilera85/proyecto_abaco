@@ -2,19 +2,19 @@
 
 
 def programa():
-    dicc_numeros = {}
+    dicc_numeroeros = {}
     
     print("Bienvenidos al ABACO \n para terminar el programa escribe 'salir'")
     
     while True:
-        entrada = input("Ingrese un numero: ")
+        entrada = input("Ingrese un numeroero: ")
         if entrada == 'salir' or entrada == 'Salir':
             print("Estas fueron tus busquedas ¡Hasta pronto!")
-            print(dicc_numeros)
+            print(dicc_numeroeros)
             break
         else:
-            dicc_numeros['intento'] = entrada
-            print(dicc_numeros)
+            dicc_numeroeros['intento'] = entrada
+            print(dicc_numeroeros)
 
 
 

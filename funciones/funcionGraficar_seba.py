@@ -1,4 +1,4 @@
-theBoard = {'cm1': '     ' , 'dm1': '   ' , 'um9': '   ' , 'c9': '   ' , 'd9': '   ' , 'u9': '     ' ,
+tablero = {'cm1': '     ' , 'dm1': '   ' , 'um9': '   ' , 'c9': '   ' , 'd9': '   ' , 'u9': '     ' ,
             'cm2': '     ' , 'dm2': '   ' , 'um8': '   ' , 'c8': '   ' , 'd8': '   ' , 'u8': '     ' ,
             'cm3': '     ' , 'dm3': '   ' , 'um7': '   ' , 'c7': '   ' , 'd7': '   ' , 'u7': '     ' , 
             'cm4': '     ' , 'dm4': '   ' , 'um6': '   ' , 'c6': '   ' , 'd6': '   ' , 'u6': '     ' ,
@@ -10,12 +10,12 @@ theBoard = {'cm1': '     ' , 'dm1': '   ' , 'um9': '   ' , 'c9': '   ' , 'd9': '
 
 board_keys = []
 
-for key in theBoard:
+for key in tablero:
     board_keys.append(key)
-num_walter = 1
+numero_walter = 1
 
-def graficar(num_walter):
-  dicc = dict(enumerate(num_walter))
+def graficar(numero_walter):
+  dicc = dict(enumeroerate(numero_walter))
   valores_lista = len(dicc)
   
   if valores_lista in range(1,6):
@@ -23,8 +23,8 @@ def graficar(num_walter):
         valor_indice_u = dicc[5] # GUARDO LA UNIDAD
         cadena = "X"
         imprimir_pantalla_u = cadena * valor_indice_u
-        if theBoard['u1'] == '     ':
-            theBoard['u1'] = imprimir_pantalla_u #IMPRIMO VALOR EN BOARD
+        if tablero['u1'] == '     ':
+            tablero['u1'] = imprimir_pantalla_u #IMPRIMO VALOR EN BOARD
     
     
     elif valores_lista == 2:
@@ -32,14 +32,14 @@ def graficar(num_walter):
         valor_indice_d = dicc[4] # GUARDO LA DECENA
         cadena_d = "X"
         imprimir_pantalla_d = cadena_d * valor_indice_d
-        if theBoard['d1'] == '     ':
-            theBoard['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
+        if tablero['d1'] == '     ':
+            tablero['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
             
         valor_indice_u = dicc[5] # GUARDO LA UNIDAD 
         cadena_u = "X"
         imprimir_pantalla_u = cadena_u * valor_indice_u
-        if theBoard['u1'] == '     ':
-            theBoard['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
+        if tablero['u1'] == '     ':
+            tablero['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
 
 
     elif valores_lista == 3:
@@ -47,22 +47,22 @@ def graficar(num_walter):
         valor_indice_c = dicc[3] # GUARDO LA CENTENA
         cadena_c = "X"
         imprimir_pantalla_c = cadena_c * valor_indice_c # MULTIPLICO X
-        if theBoard['c1'] == '     ':
-           theBoard['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
+        if tablero['c1'] == '     ':
+           tablero['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
         
         valor_indice_d = dicc[4] # GUARDO LA DECENA
         cadena_d = "X"
         imprimir_pantalla_d = cadena_d * valor_indice_d # MULTIPLICO X 
 
-        if theBoard['d1'] == '     ':
-            theBoard['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
+        if tablero['d1'] == '     ':
+            tablero['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
         
         valor_indice_u = dicc[5] # GUARDO LA UNIDAD 
         cadena_u = "X"
         imprimir_pantalla_u = cadena_u * valor_indice_u # MULTIPLICO X
 
-        if theBoard['u1'] == '     ':
-            theBoard['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
+        if tablero['u1'] == '     ':
+            tablero['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
 
 
     elif valores_lista == 4:
@@ -71,29 +71,29 @@ def graficar(num_walter):
         cadena_um = "X"
         imprimir_pantalla_um = cadena_um * valor_indice_um
 
-        if theBoard['um1'] == '     ':
-           theBoard['um1'] = imprimir_pantalla_um #IMPRIMO X EN BOARD
+        if tablero['um1'] == '     ':
+           tablero['um1'] = imprimir_pantalla_um #IMPRIMO X EN BOARD
 
         valor_indice_c = dicc[3] # GUARDO LA CENTENA   
         cadena_c = "X"
         imprimir_pantalla_c = cadena_c * valor_indice_c
 
-        if theBoard['c1'] == '     ':
-           theBoard['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
+        if tablero['c1'] == '     ':
+           tablero['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
         
         valor_indice_d = dicc[4] # GUARDO LA DECENA
         cadena_d = "X"
         imprimir_pantalla_d = cadena_d * valor_indice_d
 
-        if theBoard['d1'] == '     ':
-            theBoard['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
+        if tablero['d1'] == '     ':
+            tablero['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
             
         valor_indice_u = dicc[5] # GUARDO LA UNIDAD 
         cadena_u = "X"
         imprimir_pantalla_u = cadena_u * valor_indice_u
 
-        if theBoard['u1'] == '     ':
-            theBoard['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
+        if tablero['u1'] == '     ':
+            tablero['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
 
 
     elif valores_lista == 5:
@@ -101,79 +101,79 @@ def graficar(num_walter):
         cadena_dm = "X"
         imprimir_pantalla_dm = cadena_dm * valor_indice_dm
 
-        if theBoard['dm1'] == '     ':
-            theBoard['dm1'] = imprimir_pantalla_dm #IMPRIMO X EN BOARD
+        if tablero['dm1'] == '     ':
+            tablero['dm1'] = imprimir_pantalla_dm #IMPRIMO X EN BOARD
         
         valor_indice_um = dicc[2] # GUARDO LA UNIDAD DE MIL
         cadena_um = "X"
         imprimir_pantalla_um = cadena_um * valor_indice_um
 
-        if theBoard['um1'] == '     ':
-           theBoard['um1'] = imprimir_pantalla_um #IMPRIMO X EN BOARD
+        if tablero['um1'] == '     ':
+           tablero['um1'] = imprimir_pantalla_um #IMPRIMO X EN BOARD
 
         valor_indice_c = dicc[3] # GUARDO LA CENTENA   
         cadena_c = "X"
         imprimir_pantalla_c = cadena_c * valor_indice_c
 
-        if theBoard['c1'] == '     ':
-           theBoard['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
+        if tablero['c1'] == '     ':
+           tablero['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
         
         valor_indice_d = dicc[4] # GUARDO LA DECENA
         cadena_d = "X"
         imprimir_pantalla_d = cadena_d * valor_indice_d
 
-        if theBoard['d1'] == '     ':
-            theBoard['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
+        if tablero['d1'] == '     ':
+            tablero['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
             
         valor_indice_u = dicc[5] # GUARDO LA UNIDAD 
         cadena_u = "X"
         imprimir_pantalla_u = cadena_u * valor_indice_u
 
-        if theBoard['u1'] == '     ':
-            theBoard['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
+        if tablero['u1'] == '     ':
+            tablero['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
 
     elif valores_lista == 6:  
         valor_indice_cm =  dicc[0] # GUARDO LA CENTENA DE MIL
         cadena_cm = "X"
         imprimir_pantalla_cm = cadena_cm * valor_indice_cm
 
-        if theBoard['cm1'] == '     ':
-            theBoard['cm1'] = imprimir_pantalla_cm #IMPRIMO X EN BOARD
+        if tablero['cm1'] == '     ':
+            tablero['cm1'] = imprimir_pantalla_cm #IMPRIMO X EN BOARD
 
         valor_indice_dm =  dicc[1] # GUARDO LA DECENA DE MIL
         cadena_dm = "X"
         imprimir_pantalla_dm = cadena_dm * valor_indice_dm
 
-        if theBoard['dm1'] == '     ':
-            theBoard['dm1'] = imprimir_pantalla_dm #IMPRIMO X EN BOARD
+        if tablero['dm1'] == '     ':
+            tablero['dm1'] = imprimir_pantalla_dm #IMPRIMO X EN BOARD
         
         valor_indice_um = dicc[2] # GUARDO LA UNIDAD DE MIL
         cadena_um = "X"
         imprimir_pantalla_um = cadena_um * valor_indice_um
 
-        if theBoard['um1'] == '     ':
-           theBoard['um1'] = imprimir_pantalla_um #IMPRIMO X EN BOARD
+        if tablero['um1'] == '     ':
+           tablero['um1'] = imprimir_pantalla_um #IMPRIMO X EN BOARD
 
         valor_indice_c = dicc[3] # GUARDO LA CENTENA   
         cadena_c = "X"
         imprimir_pantalla_c = cadena_c * valor_indice_c
 
-        if theBoard['c1'] == '     ':
-           theBoard['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
+        if tablero['c1'] == '     ':
+           tablero['c1'] = imprimir_pantalla_c #IMPRIMO X EN BOARD
         
         valor_indice_d = dicc[4] # GUARDO LA DECENA
         cadena_d = "X"
         imprimir_pantalla_d = cadena_d * valor_indice_d
 
-        if theBoard['d1'] == '     ':
-            theBoard['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
+        if tablero['d1'] == '     ':
+            tablero['d1'] = imprimir_pantalla_d #IMPRIMO X EN BOARD
             
         valor_indice_u = dicc[5] # GUARDO LA UNIDAD 
         cadena_u = "X"
         imprimir_pantalla_u = cadena_u * valor_indice_u
 
-        if theBoard['u1'] == '     ':
-            theBoard['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
+        if tablero['u1'] == '     ':
+            tablero['u1'] = imprimir_pantalla_u #IMPRIMO X EN BOARD
   else:
     print("error")
 

@@ -3,4 +3,4 @@
 
 
 #def graficar(**kwargs):
-#    for numeros in kwargs.items():
+#    for numeroeros in kwargs.items():
