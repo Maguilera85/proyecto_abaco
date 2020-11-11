@@ -1,6 +1,5 @@
 # Estas son las coordenadas del abaco
-def coodenadas():
-    tablero = {54: '   ' , 45: '   ' , 36: '   ' , 27: '   ' , 18: '   ' , 9: '   ' ,
+tablero = {54: '   ' , 45: '   ' , 36: '   ' , 27: '   ' , 18: '   ' , 9: '   ' ,
             53: '   ' , 44: '   ' , 35: '   ' , 26: '   ' , 17: '   ' , 8: '   ' ,
             52: '   ' , 43: '   ' , 34: '   ' , 25: '   ' , 16: '   ' , 7: '   ' , 
             51: '   ' , 42: '   ' , 33: '   ' , 24: '   ' , 15: '   ' , 6: '   ' ,
@@ -11,21 +10,20 @@ def coodenadas():
             46: '   ' , 37: '   ' , 28: '   ' , 19: '   ' , 10: '   ' , 1: '   ' }
            
 # imprime abaco visual
-def tablero_visual():
-    print()
-    print("  +---+       +---+       +---+       +---+       +---+       +---+")
-    print("  |" + tablero[54] + "|       |" + tablero[45] + "|       |" + tablero[36] + "|       |" + tablero[27] + "|       |" + tablero[18] + "|       |" + tablero[9] + "|")
-    print("  |" + tablero[53] + "|       |" + tablero[44] + "|       |" + tablero[35] + "|       |" + tablero[26] + "|       |" + tablero[17] + "|       |" + tablero[8] + "|")
-    print("  |" + tablero[52] + "|       |" + tablero[43] + "|       |" + tablero[34] + "|       |" + tablero[25] + "|       |" + tablero[16] + "|       |" + tablero[7] + "|")
-    print("  |" + tablero[51] + "|       |" + tablero[42] + "|       |" + tablero[33] + "|       |" + tablero[24] + "|       |" + tablero[15] + "|       |" + tablero[6] + "|")
-    print("  |" + tablero[50] + "|       |" + tablero[41] + "|       |" + tablero[32] + "|       |" + tablero[23] + "|       |" + tablero[14] + "|       |" + tablero[5] + "|")
-    print("  |" + tablero[49] + "|       |" + tablero[40] + "|       |" + tablero[31] + "|       |" + tablero[22] + "|       |" + tablero[13] + "|       |" + tablero[4] + "|")
-    print("  |" + tablero[48] + "|       |" + tablero[39] + "|       |" + tablero[30] + "|       |" + tablero[21] + "|       |" + tablero[12] + "|       |" + tablero[3] + "|")
-    print("  |" + tablero[47] + "|       |" + tablero[38] + "|       |" + tablero[29] + "|       |" + tablero[20] + "|       |" + tablero[11] + "|       |" + tablero[2] + "|")
-    print("  |" + tablero[46] + "|       |" + tablero[37] + "|       |" + tablero[28] + "|       |" + tablero[19] + "|       |" + tablero[10] + "|       |" + tablero[1] + "|")
-    print("__+---+_______+---+_______+---+_______+---+_______+---+_______+---+__")
-    print("|___________________________________________________________________|")
-    print()
+print()
+print("  +---+       +---+       +---+       +---+       +---+       +---+")
+print("  |" + tablero[54] + "|       |" + tablero[45] + "|       |" + tablero[36] + "|       |" + tablero[27] + "|       |" + tablero[18] + "|       |" + tablero[9] + "|")
+print("  |" + tablero[53] + "|       |" + tablero[44] + "|       |" + tablero[35] + "|       |" + tablero[26] + "|       |" + tablero[17] + "|       |" + tablero[8] + "|")
+print("  |" + tablero[52] + "|       |" + tablero[43] + "|       |" + tablero[34] + "|       |" + tablero[25] + "|       |" + tablero[16] + "|       |" + tablero[7] + "|")
+print("  |" + tablero[51] + "|       |" + tablero[42] + "|       |" + tablero[33] + "|       |" + tablero[24] + "|       |" + tablero[15] + "|       |" + tablero[6] + "|")
+print("  |" + tablero[50] + "|       |" + tablero[41] + "|       |" + tablero[32] + "|       |" + tablero[23] + "|       |" + tablero[14] + "|       |" + tablero[5] + "|")
+print("  |" + tablero[49] + "|       |" + tablero[40] + "|       |" + tablero[31] + "|       |" + tablero[22] + "|       |" + tablero[13] + "|       |" + tablero[4] + "|")
+print("  |" + tablero[48] + "|       |" + tablero[39] + "|       |" + tablero[30] + "|       |" + tablero[21] + "|       |" + tablero[12] + "|       |" + tablero[3] + "|")
+print("  |" + tablero[47] + "|       |" + tablero[38] + "|       |" + tablero[29] + "|       |" + tablero[20] + "|       |" + tablero[11] + "|       |" + tablero[2] + "|")
+print("  |" + tablero[46] + "|       |" + tablero[37] + "|       |" + tablero[28] + "|       |" + tablero[19] + "|       |" + tablero[10] + "|       |" + tablero[1] + "|")
+print("__+---+_______+---+_______+---+_______+---+_______+---+_______+---+__")
+print("|___________________________________________________________________|")
+print()
 
 
 # descompone el numero ingresado por el usuario
@@ -85,6 +83,9 @@ def descomponer(numero):
         u = numero[5]
         u = int(u)
         return cm, dm, um, c, d, u
+
+# def funcion_punto():
+
 
 # imprime registros de datos ingresados por usuario
 def imprimir_reg(lista):
