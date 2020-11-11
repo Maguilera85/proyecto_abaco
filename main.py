@@ -5,7 +5,7 @@ while True:
     numero = input('ingrese numero: ')
     dicc = dict(enumerate(numero))
     # aqui se ejecuta la funcion graficar
-    # print(dicc)
+    print(dicc)
     # largo = len(dicc)
     # print(largo)
      

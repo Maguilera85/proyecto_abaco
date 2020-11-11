@@ -12,6 +12,7 @@ board_keys = []
 
 for key in theBoard:
     board_keys.append(key)
+num_walter = 1
 
 def graficar(num_walter):
   dicc = dict(enumerate(num_walter))
