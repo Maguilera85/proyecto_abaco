@@ -16,6 +16,7 @@ while True:
         break
     else:
         continue
+        
 print(lista)
 
 for i in range(len(lista)):
