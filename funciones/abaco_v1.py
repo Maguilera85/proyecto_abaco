@@ -1,21 +1,21 @@
 
-variablex = "XXX"
-variable0 = "   "
+theBoard[''] = "XXX"
+theBoard[''] = "   "
 
 
 
 print()
 print("            +---+       +---+       +---+       +---+       +---+       +---+")
-print("            |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variablex + "|       |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("            |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variable0 + "|       |" + variablex + "|       |" + variable0 + "|")
-print("            |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variable0 + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
+print("            |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|       |" + theBoard[''] + "|")
 print("          __+---+_______+---+_______+---+_______+---+_______+---+_______+---+__")
 print("          |___________________________________________________________________|")
 
