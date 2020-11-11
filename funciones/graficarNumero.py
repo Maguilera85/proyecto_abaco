@@ -5,8 +5,8 @@ def graficarNumero(numero_walter):
     cadena = "X"
     multiplicador_x = numero_walter / 100000
     imprimir_pantalla = cadena * multiplicador_x
-    restante = valor - 
-      str_restante = len(restante)
+    restante = valor 
+    str_restante = len(restante)
 
 
   print(valor_str)
