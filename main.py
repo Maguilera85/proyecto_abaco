@@ -22,3 +22,5 @@ while True:
         fun.imprimir_reg(registro)
         print("¡Hasta pronto!")
         break
+
+input()
