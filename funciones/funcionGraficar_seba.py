@@ -182,3 +182,5 @@ def graficar(num_walter):
     – 1 unidad de mil = 1 000 unidades
     – 1 decena de mil = 10 000 unidades
     – 1 centena de mil = 100 000 unidades """
+
+    
