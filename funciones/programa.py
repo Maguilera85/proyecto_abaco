@@ -13,7 +13,6 @@ def programa():
             print(dicc_numeros)
             break
         else:
-
             dicc_numeros['intento'] = entrada
             print(dicc_numeros)
 
