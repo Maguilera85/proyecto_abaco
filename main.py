@@ -6,6 +6,8 @@ while True:
     dicc = dict(enumerate(numero))
     # aqui se ejecuta la funcion graficar
     print(dicc)
+    largo = len(dicc)
+    print(largo)
      
     #se guarda numeros en lista
     lista.append(numero)
@@ -16,7 +18,7 @@ while True:
         break
     else:
         continue
-        
+
 print(lista)
 
 for i in range(len(lista)):
