@@ -6,7 +6,7 @@ theBoard = {'cm9': ' ' , 'dm9': ' ' , 'um9': ' ' , 'c9': ' ' , 'd9': ' ' , 'u9':
             'cm9': ' ' , 'dm9': ' ' , 'um4': ' ' , 'c4': ' ' , 'd4': ' ' , 'u4': ' ' ,
             'cm9': ' ' , 'dm9': ' ' , 'um3': ' ' , 'c3': ' ' , 'd3': ' ' , 'u3': ' ' ,
             'cm9': ' ' , 'dm9': ' ' , 'um2': ' ' , 'c2': ' ' , 'd2': ' ' , 'u2': ' ' ,
-            'cm9': ' ' , 'dm9': ' ' , 'um1': ' ' , 'c1': ' ' , 'd1': ' ' , 'u1': ' ' ,}
+            'cm9': ' ' , 'dm9': ' ' , 'um1': ' ' , 'c1': ' ' , 'd1': ' ' , 'u1': ' ' }
 
 board_keys = []
 
@@ -19,7 +19,7 @@ for key in theBoard:
    – 1 unidad de mil = 1 000 unidades
    – 1 decena de mil = 10 000 unidades
    – 1 centena de mil = 100 000 unidades """
-
+"""
 print()
 print("  +---+       +---+       +---+       +---+       +---+       +---+")
 print("  |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
@@ -30,9 +30,21 @@ print("  |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|
 print("  |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
 print("  |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
 print("  |" + variablex + "|       |" + variablex + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|       |" + variable0 + "|")
-print("  |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variable0 + "|       |" + variablex + "|       |" + variable0 + "|")
-print("  |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variable0 + "|")
+print("  |" + variablex + "|       |" + variablex + "|       |" + variablex + "|       |" + variable0 + "|       |" + variablex + "|       |" + variable0 + "|")"""
+print("  |" + theBoard['cm9'] + "|       |" + theBoard['cm9'] + "|       |" + theBoard['cm9'] + "|       |" + theBoard['cm9'] + "|       |" + theBoard['cm9'] + "|       |" + theBoard['cm9'] + "|")
 print("__+---+_______+---+_______+---+_______+---+_______+---+_______+---+__")
 print("|___________________________________________________________________|")
 
 print()
+
+def graficarNumero(num):
+  var = len(str(num))
+  if var == "8":
+    cadena = "X"
+    multiplicador_x = num / 100000
+    restante = multiplicador_x * 100000
+    restante_operacion = num - restante
+    imprimir_pantalla = cadena * multiplicador_x
+    imprimir_pantalla = int(imprimir_pantalla) 
+       theBoard['cm9'] = imprimir_pantalla
+graficarNumero(10)
