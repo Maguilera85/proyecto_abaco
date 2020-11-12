@@ -1,8 +1,12 @@
 # agrega punto mil
 def funcion_punto(registro):
-    registro2 = str(registro)
-    lo_quesea2 = registro2[:-3]+ "." + registro2[-3:]
-    return lo_quesea2
+    limite = len(registro)
+    if limite > 3:
+        registro2 = str(registro)
+        lo_quesea2 = registro2[:-3]+ "." + registro2[-3:]
+        return lo_quesea2
+    else:
+        return registro
 
 
 # imprime registros de datos ingresados por usuario
