@@ -1,8 +1,9 @@
 import funciones as fun
 
 registro = []
-print("Bienvenido al ABACO")
-print("ingrese un numeroero para graficar en el ABACO o escriba 'salir' para terminar el programa")
+fun.logo()
+print("\nBienvenido al ABACO")
+print("ingrese un número para graficar en el ABACO o escriba 'salir' para terminar el programa")
 while True:
     dato = input(">> ")
     if dato != 'salir':
